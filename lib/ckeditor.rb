@@ -2,6 +2,7 @@
 
 require 'orm_adapter'
 require 'pathname'
+require 'addressable/uri'
 
 module Ckeditor
   autoload :Utils, 'ckeditor/utils'
