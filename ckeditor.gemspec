@@ -21,5 +21,5 @@ Gem::Specification.new do |s|
 
   s.add_dependency("terrapin")
   s.add_dependency("orm_adapter", "~> 0.5.0")
-  s.add_dependency("addressable", "~> 2.6")
+  s.add_dependency("addressable", "~> 2.8.0")
 end

@@ -2,7 +2,8 @@ PATH
   remote: .
   specs:
     ckeditor (4.3.0)
-      addressable (~> 2.6)
+      addressable (~> 2.8.0)
+      cocaine
       orm_adapter (~> 0.5.0)
       terrapin
 
@@ -43,8 +44,8 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    addressable (2.6.0)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.8.0)
+      public_suffix (>= 2.0.2, < 5.0)
     arel (6.0.4)
     bson (4.3.0)
     bson_ext (1.5.1)
@@ -94,13 +95,15 @@ GEM
     mail (2.7.0)
       mini_mime (>= 0.1.1)
     mime-types (2.99.3)
-    mimemagic (0.3.2)
     mini_magick (4.8.0)
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     mongo (2.5.1)
       bson (>= 4.3.0, < 5.0.0)
+    mimemagic (0.3.10)
+      nokogiri (~> 1)
+      rake
     mongoid (5.0.2)
       activemodel (~> 4.0)
       mongo (~> 2.1)
@@ -126,9 +129,9 @@ GEM
       cocaine (~> 0.5.5)
       mime-types
       mimemagic (~> 0.3.0)
-    public_suffix (3.0.3)
     rack (1.6.9)
     rack-protection (1.5.4)
+    public_suffix (4.0.6)
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -233,4 +236,4 @@ DEPENDENCIES
   unicorn (~> 4.0.1)
 
 BUNDLED WITH
-   1.17.1
+   1.17.2
