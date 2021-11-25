@@ -3,6 +3,10 @@
 ## NEXT
   * None
 
+## Ckeditor 4.3.1
+
+  * Update addressable gem to 2.8.0 because CVE-2021-32740 (https://github.com/advisories/GHSA-jxhc-q857-3j6g)
+
 ## Ckeditor 4.3.0
 
   * Update CKEditor to version 4.11.1 full (8 November 2018)
